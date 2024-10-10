@@ -1,0 +1,175 @@
+*{
+    font-family: "League Spartan", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+a:active{
+    opacity: 0.6;
+}
+
+
+header{
+    background-color: rgb(2, 2, 141);
+    padding: 25px;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 2px 1px 10px 1px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.links-filhos{
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none; 
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#btu{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.buttom-header{
+    color: white;
+    background-color: rgb(0, 225, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+.container-section{
+    background-color: rgba(128, 128, 128, 0.181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+    margin-bottom: 0;
+}
+
+.perfil{
+    background-color: rgba(128, 128, 128, 0.273);
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 10px;
+}
+
+img{
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 2px 1px 2px 1px gray;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.181);
+    padding: 25px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#biografia{
+    font-size: 24px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.linkedin{
+    margin-bottom: 10px;
+}
+
+.github{
+    margin-bottom: 10px;
+}
+
+.email{
+    margin-bottom: 10px;
+}
+
+#img-linkedin{
+    height: 50px;
+}
+
+#img-github{
+    height: 50px;
+}
+#email{
+    height: 50px;
+}
+
+img:hover{
+    opacity: 0.6;
+}
+img:active{
+    opacity: 0.4
+    ;
+}
+#em{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+footer{
+    background-color:rgb(2, 2, 141);
+    color: white;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}

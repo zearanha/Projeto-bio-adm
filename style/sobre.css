@@ -122,7 +122,7 @@ header{
 } 
 
 #textos{
-    background-color: rgba(0, 0, 0, 0.866);
+    background-color: rgba(0, 0, 0, 0.774);
     border-radius: 20px;
     padding: 20px 20px 10px 20px;
     display: flex;
@@ -138,8 +138,27 @@ header{
     margin-bottom: 40px;
     font-size: 25px;
     font-weight: 500;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.845);
     padding: 12px;
     color: white;
     border-radius: 10px;
+}
+
+footer{
+    background-color:rgb(2, 2, 141);
+    color: white;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 0 2px 0px color(srgb 0, 0, 0);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
 }

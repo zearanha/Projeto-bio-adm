@@ -4,9 +4,27 @@
     padding: 0;
 }
 
-body{
-    background-color: antiquewhite;
-}
+body {
+    background-image: url('https://i.pinimg.com/736x/c1/d3/a1/c1d3a15ac9629e3eec08a551a8ad58c2.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+  body::before {
+    content: "";
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('caminho-da-imagem.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; 
+    z-index: -1;
+  }
 
 a:hover{
     opacity: 0.8;
@@ -87,7 +105,7 @@ header{
 }
 
 .perfil{
-    background-color: rgba(128, 128, 128, 0.273);
+    background-color: rgba(0, 0, 0, 0.267);
     padding: 20px;
     border-radius: 40px;
     margin: 0 10px;
@@ -96,16 +114,17 @@ header{
 img{
     height: 500px;
     border-radius: 30px;
-    box-shadow: 2px 1px 2px 1px gray;
+    box-shadow: 2px 1px 2px 1px rgb(0, 0, 0);
 }
 
 .texto{
     display: flex;
     flex-direction: column;
-    background-color: rgba(128, 128, 128, 0.181);
+    background-color: rgba(0, 0, 0, 0.622);
     padding: 25px;
     border-radius: 20px;
     margin: 10px;
+    color: rgba(255, 255, 255, 0.833);
 }
 
 #biografia{
@@ -126,6 +145,7 @@ img{
 
 .github{
     margin-bottom: 10px;
+    
 }
 
 .email{
@@ -164,6 +184,8 @@ footer{
     position: absolute;
     width: 100%;
     bottom: 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 0 2px 0px color(srgb 0, 0, 0);
 }
 
 .rodape{

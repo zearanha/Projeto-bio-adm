@@ -5,10 +5,27 @@
 }
 
 
-body{
-    /*https://i.pinimg.com/736x/c1/d3/a1/c1d3a15ac9629e3eec08a551a8ad58c2.jpg*/
-    background-color: antiquewhite;
-}
+body {
+    background-image: url('https://i.pinimg.com/736x/c1/d3/a1/c1d3a15ac9629e3eec08a551a8ad58c2.jpg');
+    background-size: cover; /* Faz com que a imagem cubra toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+  }
+  
+  body::before {
+    content: "";
+    position: fixed; /* Garante que cubra toda a tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('caminho-da-imagem.jpg'); /* Adiciona a imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Aplica a opacidade */
+    z-index: -1; /* Faz com que fique atrás do conteúdo */
+  }
 
 a:hover{
     opacity: 0.8;
@@ -45,7 +62,7 @@ header{
 
 .links-filhos{
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none; 
     color: white;
     display: flex;

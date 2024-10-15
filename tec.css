@@ -1,0 +1,95 @@
+*{
+    font-family: "League Spartan", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/736x/c1/d3/a1/c1d3a15ac9629e3eec08a551a8ad58c2.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+  body::before {
+    content: "";
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('caminho-da-imagem.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; 
+    z-index: -1;
+  }
+
+a:hover{
+    opacity: 0.8;
+}
+
+a:active{
+    opacity: 0.6;
+}
+
+
+header{
+    background-color: rgb(2, 2, 141);
+    padding: 25px;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 2px 1px 10px 1px;
+    position: static;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.links-filhos{
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none; 
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#btu{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.buttom-header{
+    color: white;
+    background-color: rgb(0, 225, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 24px;
+}
